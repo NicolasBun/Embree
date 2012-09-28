@@ -99,7 +99,7 @@ namespace embree
       case 'f' : glutFullScreen(); break;
       case 'r' : g_refine = !g_refine; break;
       case 'p' : g_lineDrawing = !g_lineDrawing; std::cerr<<"line drawing is "<<g_lineDrawing<<std::endl; break;
-      case 's' : snapshot("snapshot.jpg"); break;
+      case 's' : snapshot("snapshot.hdr"); break;
       case 't' : g_regression = !g_regression; break;
       case 'l' : g_camRadius = max(0.0f, g_camRadius-1); break;
       case 'L' :
